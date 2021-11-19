@@ -567,3 +567,204 @@
 }
 
 
+/* Holiday */
+.holiday {
+    background: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-search-2.jpg?id=1538) no-repeat center;
+    width: 100%;
+    background-size: cover;
+    padding: 70px 0;
+    color: var(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.holiday-heading {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 8px;
+}
+
+.holiday-heading-box {
+    margin-right: 54px;
+    line-height: 1;
+}
+
+.holiday-heading-box h2 {
+    font-size: 45px;
+    margin: 0;
+}
+
+.holiday-heading-box h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.holiday-heading-box span {
+    position: relative;
+    z-index: 0;
+}
+
+.holiday-heading-box span::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 100%;
+    bottom: 7px;
+    height: 5px;
+    background-color: var(--pink-color);
+    z-index: -1;
+}
+
+.holiday-btn {
+    display: flex;
+    margin-top: 25px;
+}
+
+.holiday-btn-link {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: var(--pink-color);
+    padding: 12px 35px;
+    background-color: var(--white-color);
+    border-radius: 20px;
+    margin-left: 50px;
+    letter-spacing: 2px;
+}
+
+/* Beaches */
+.beaches {
+    padding: 76px 0;
+}
+
+.beaches_decription {
+
+}
+
+.beaches_decription h6 {
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: #9a9a9a;
+    letter-spacing: 2px;
+    margin-top: 0;
+    margin-bottom: 36px;
+}
+
+.beaches_decription h2 {
+    font-size: 35px;
+    color: #555555;
+    margin: 8px 0 16px;
+}
+
+.beaches_decription h2 span {
+    position: relative;
+    z-index: 0;
+}
+
+.beaches_decription h2 span::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 100%;
+    bottom: 6px;
+    height: 5px;
+    background-color: var(--green-color);
+    z-index: -1;
+}
+
+.beaches_decription p {
+    font-size: 14px;
+    color: #9a9a9a;
+    line-height: 2.9;
+    letter-spacing: 1px;
+}
+
+.beaches_decription-price {
+    font-size: 14px;
+    color: #555555;
+    margin-top: 24px;
+}
+
+.beaches_decription-oldPrice {
+    font-size: 3rem;
+    color: #dadada;
+    text-decoration: line-through;
+}
+
+.beaches_decription-newPrice {
+    font-size: 3rem;
+    color: #555555;
+    margin-left: 4px;
+}
+
+.beaches_decription-btn {
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    background-color: var(--green-color);
+    padding: 12px 35px;
+    border-radius: 30px;
+    letter-spacing: 2px;
+    margin-top: 32px;
+    display: inline-block;
+}
+
+.beaches_image {
+    position: relative;
+    display: flex;
+}
+
+.beaches_image-block {
+    position: relative;
+}
+
+.beaches_image-block-img {
+    width: 776px;
+    height: 410px;
+    object-fit: cover;
+}
+
+.beaches_image-strikethrough {
+    position: absolute;
+    top: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.beaches_image-strikethrough-item {
+    width: 60px;
+    height: 3px;
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.beaches_image-timebox {
+    position: absolute;
+    display: flex;
+    background-color: var(--green-color);
+    color: var(--white-color);
+    left: 50%;
+    top: 100%;
+    transform: translate(-50% ,-50%);
+    width: 66.6667%;
+}
+
+.beaches_image-time {
+    position: relative;
+    font-size: 3.4rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 115px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.beaches_image-time span {
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    margin-top: 16px;
+}
